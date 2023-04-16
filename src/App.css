@@ -12,6 +12,19 @@ body{
     flex-wrap: wrap;  
 }
 
+.container-home{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-home img{
+    height: 500px;
+    width: 450px;
+    display: flex;
+}
+
 .card{
     margin: 5px;
     padding-top: 10px;

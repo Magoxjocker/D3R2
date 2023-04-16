@@ -16,7 +16,7 @@ export const NavBar = () => {
                 <NavLink className="nav-link" to="/home">Home</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/pokemones">Informacion</NavLink>
+                <NavLink className="nav-link" to="/pokedex">Pokedex</NavLink>
               </li>
             </ul>
           </div>

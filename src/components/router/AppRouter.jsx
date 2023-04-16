@@ -1,7 +1,8 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from '../../pages/Home'
-import Informacion from '../../pages/Informacion'
+import Informacion from '../../pages/Pokedex'
+import Pokedex from '../../pages/Pokedex'
 
 
 const AppRouter = () => {
@@ -9,7 +10,7 @@ const AppRouter = () => {
         <div>
             <Routes>
                 <Route path='/home' element={<Home />} />
-                <Route path='pokemon/:id' element={<Informacion />} />
+                <Route path='/pokedex' element={<Pokedex />} />
             </Routes>
         </div>
     )
