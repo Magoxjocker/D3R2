@@ -6,7 +6,7 @@ export const MyContext = createContext()
 export const PokemonProvider = ({children}) => {
     const [dataPokemon, setDataPokemon] = useState([])
 
-    const urlBase = 'https://pokeapi.co/api/v2/pokemon?limit=3&offset=0'
+    const urlBase = 'https://pokeapi.co/api/v2/pokemon?limit=150&offset=0'
 
 const getAllPokemon = async () => {
 

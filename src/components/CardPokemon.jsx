@@ -6,7 +6,17 @@ const CardPokemon = ({ pokemon }) => {
     const navigate = useNavigate()
 
     const info = () => {
-        navigate(`pokemon/${pokemon.id}`)
+        navigate(`/information/${pokemon.id}`,{
+            state: {pokemon : {
+                name:pokemon.name,
+                height:pokemon.height,
+                weight:pokemon.weight,
+                stats:pokemon.stats,
+                types:pokemon.types,
+                img:pokemon.sprites.other.dream_world.front_default
+
+            }}         
+        })
     }
 
     return (
